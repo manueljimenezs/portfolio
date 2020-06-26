@@ -21,7 +21,8 @@ img {
     position: absolute;
     right: 4.5rem;
     bottom: 3rem;
-    animation: bounce 1s infinite alternate;
+    animation: bounce 0.5s infinite alternate;
+    z-index: -1;
 }
 
 .subtitle {
@@ -37,7 +38,7 @@ img {
 }
 
 .home-intro {
-    padding: 20% 2em;
+    padding: 40% 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +68,7 @@ img {
 @media (min-width: 792px) {
 
     .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         white-space:nowrap;
     }
 

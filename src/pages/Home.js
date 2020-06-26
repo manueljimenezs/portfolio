@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../components/Navigation/Header';
+import Navbar from '../components/Navigation/Navbar';
 import { FaArrowDown } from 'react-icons/fa';
 import './Home.css'
 import logo from './me.svg'
@@ -10,10 +10,10 @@ class Home extends Component {
     render() {
         return (
             <>
-                <Header />
-                <div class="wrapper">
+                <Navbar />
+                <div className="wrapper">
                 <section className="home-intro">
-                        <img src={logo} class="start-cover" alt=""/>
+                        <img src={logo} className="start-cover" alt=""/>
                         <div className="home-titledesc">
                             <div className="subtitle">Hello, I'm</div>
                             <div className="title">Manuel Jiménez</div>
