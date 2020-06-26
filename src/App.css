@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Esteban&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  min-width:100%;
+  background-color: white;
+  background-image: url("noise-texture-light.png");
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width:100%;
+  color:black;
+  font-family: 'Inter';
+  font-feature-settings: 'cv11' 1
+}
