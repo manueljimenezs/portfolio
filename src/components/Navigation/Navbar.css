@@ -30,7 +30,7 @@ nav li a {
   color: white;
   display: block;
   text-decoration: none;
-  padding: .5em 1em;
+  /*padding: .5em 1em;*/
 }
 
 .start-cover {
