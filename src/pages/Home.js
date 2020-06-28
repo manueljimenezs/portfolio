@@ -17,18 +17,42 @@ class Home extends Component {
                         <div className="home-titledesc">
                             <div className="subtitle">Hello, I'm</div>
                             <div className="title">Manuel Jiménez</div>
-                            <div className="text">
-                                Su padre había encauzado su formación para un destino eclesiástico pero la Guerra de la Independencia lo arrastró desde muy joven al frente de batalla, que no abandonó hasta veinticinco años después.
-                            </div>
+                            <div className="text">Computer Scientist @ Alcobendas, Madrid</div>
                             <div className="buttons">
-                                <ButtonLink href="#home-cont" label="PROJECTS"/>
-                                <ButtonLink href="#home-cont" label="MORE INFO"/>
-                            </div>
+                                <ButtonLink primary href="#home-cont" label="PROJECTS"/>
+                                <ButtonLink success href="#home-cont" label="MORE INFO"/>                            </div>
                         </div>
                         <span className="arrow"><FaArrowDown /></span>  
                 </section>
                 <section id="home-cont">
+                    <p>
                    This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                    <p>
+                   This is a test
+                   </p>
+                  
                 </section>
                 </div>
         </>

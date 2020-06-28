@@ -4,13 +4,13 @@ import styled from 'styled-components';
 const StyledBurger = styled.div`
 
   
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   display: block;
   
   
   position: fixed;
-  top: 25px;
+  top: 20px;
   right: 30px;
   
   z-index: 20;
@@ -22,7 +22,7 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   div {
-    height: 0.25rem;
+    height: 3px;
     background-color: ${({ open }) => open ? '#fff' : '#333'};
     transform-origin: 1.2px;
     transition: all 0.2s linear;
@@ -49,17 +49,16 @@ const Ul = styled.ul`
   
   li {
     padding: 0 0 0 20px;
+    a {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
+      font-family: 'Inter';
+    }
   }
 
-  .navlink {
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: .3s;
-    font-family: 'Inter';
-}
 ;
   /*For mobile*/
   @media (max-width: 768px) {
@@ -74,20 +73,31 @@ const Ul = styled.ul`
     height: 100vh;
     width: 100vw;
     
-    transition: transform 0.1s ease-in-out;
+    /*transition: transform 0.1s ease-in-out;*/
+
+    li:hover {
+      background-color: #fff;
+      color: #000;
+
+      a {
+        color: tomato;
+      }
+    }
+
     li {
       
       padding: 8px 30px;
       text-align: right;
-    }
 
-    .navlink {
+      a {
+        color: tomato;
         font-size: 1.2rem;
         color: white;
         font-weight: 800;
-
+      }
     }
 
+  
 
   }
 `;
@@ -106,11 +116,11 @@ const Burger = () => {
                 <div />
             </StyledBurger>
             <Ul open={open}>
-                <li><a className='navlink' onClick={() => setOpen(!open)} href="#home-cont">About</a></li>
-                <li><a className='navlink' href="https://github.com/manueljimenezs">Github</a></li>           
-                <li><a className='navlink' href="https://manueljimenezs.github.io/">Blog</a></li>                             
-                <li><a className='navlink' href="https://manueljimenezs.github.io/">LinkedIn</a></li>                             
-                <li><a className='navlink' href="https://manueljimenezs.github.io/">Contact</a></li>                             
+                <li><a onClick={() => setOpen(!open)} href="#home-cont">About</a></li>
+                <li><a href="https://github.com/manueljimenezs">Github</a></li>           
+                <li><a href="https://manueljimenezs.github.io/">Blog</a></li>                             
+                <li><a href="https://manueljimenezs.github.io/">LinkedIn</a></li>                             
+                <li><a href="https://manueljimenezs.github.io/">Contact</a></li>                             
             </Ul>
         </>
     );
