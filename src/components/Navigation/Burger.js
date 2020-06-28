@@ -5,7 +5,7 @@ const StyledBurger = styled.div`
 
   
   width: 1.2rem;
-  height: 1.2rem;
+  height: 1.1rem;
   display: block;
   
   
@@ -22,7 +22,7 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   div {
-    height: 3px;
+    height: 2px;
     background-color: ${({ open }) => open ? '#fff' : '#333'};
     transform-origin: 1.2px;
     transition: all 0.2s linear;
@@ -74,7 +74,7 @@ const Ul = styled.ul`
     width: 100vw;
     
     /*transition: transform 0.1s ease-in-out;*/
-
+/*
     li:hover {
       background-color: #fff;
       color: #000;
@@ -82,7 +82,7 @@ const Ul = styled.ul`
       a {
         color: tomato;
       }
-    }
+    }*/
 
     li {
       
