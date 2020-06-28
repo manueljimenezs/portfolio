@@ -11,7 +11,7 @@ const Nav = styled.nav`
   position: fixed;
   left: 0;
   right: 0;
-  background: rgba(255,255,250,1);
+  background: rgba(255,255,255,1);
 
   @supports ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
      background-color: rgba(255,255,255,0.5);

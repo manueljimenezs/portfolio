@@ -4,13 +4,13 @@ import styled from 'styled-components';
 const StyledBurger = styled.div`
 
   
-  width: 1.2rem;
-  height: 1.1rem;
+  width: 25px;
+  height: 26px;
   display: block;
   
   
   position: fixed;
-  top: 20px;
+  top: 15px;
   right: 30px;
   
   z-index: 20;
@@ -22,9 +22,9 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   div {
-    height: 2px;
+    height: 4px;
     background-color: ${({ open }) => open ? '#fff' : '#333'};
-    transform-origin: 1.2px;
+    transform-origin: 0.3px;
     transition: all 0.2s linear;
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
