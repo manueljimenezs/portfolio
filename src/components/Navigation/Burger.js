@@ -7,12 +7,6 @@ const StyledBurger = styled.div`
   width: 25px;
   height: 26px;
   display: block;
-  
-  
-  position: fixed;
-  top: 15px;
-  right: 30px;
-  
   z-index: 20;
   display: none;
   @media (max-width: 768px) {
@@ -23,7 +17,7 @@ const StyledBurger = styled.div`
   }
   div {
     height: 4px;
-    background-color: ${({ open }) => open ? '#fff' : '#333'};
+    background-color: ${({ open }) => open ? '#fff' : '#000'};
     transform-origin: 0.3px;
     transition: all 0.2s linear;
     &:nth-child(1) {

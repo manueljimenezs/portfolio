@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 
 function App() {
+  document.title = "Manuel Jiménez";
   return (
     <div className="App">
       <Layout>
