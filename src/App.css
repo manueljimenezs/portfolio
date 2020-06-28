@@ -6,7 +6,6 @@
 html {
   min-width:100%;
   background-color: white;
-  background-image: url("noise-texture-light.png");
   scroll-behavior: smooth;
 }
 

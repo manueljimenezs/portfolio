@@ -6,13 +6,13 @@ const StyledBurger = styled.div`
   
   width: 1.5rem;
   height: 1.5rem;
-  /*position: fixed;*/
   display: block;
-
   
   
-  /*top: 25px;*/
-  /*right: 30px;*/
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  
   z-index: 20;
   display: none;
   @media (max-width: 768px) {
@@ -46,6 +46,7 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   justify-content: flex-end;
   margin: 0;
+  
   li {
     padding: 0 0 0 20px;
   }
@@ -56,7 +57,7 @@ const Ul = styled.ul`
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
-    transition: .5s;
+    transition: .3s;
     font-family: 'Inter';
 }
 ;
@@ -71,9 +72,9 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     li {
       
       padding: 8px 30px;
@@ -81,8 +82,9 @@ const Ul = styled.ul`
     }
 
     .navlink {
-        font-size: 1.5rem;
-        color: #fff;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 800;
 
     }
 
@@ -94,7 +96,7 @@ const Burger = () => {
     const [open, setOpen] = useState(false)
 
       /* Preventing page scrolling when open*/
-      open ? document.body.style.overflow = 'hidden' :  document.body.style.overflow = 'unset';
+      /*open ? document.body.style.overflow = 'hidden' :  document.body.style.overflow = 'unset';*/
 
     return (
         <>
@@ -104,9 +106,9 @@ const Burger = () => {
                 <div />
             </StyledBurger>
             <Ul open={open}>
-                <li><a className='navlink' onClick={() => setOpen(!open)} href="#home-cont">About</a></li>
+                <li><a className='navlink' onClick={() => setOpen(!open)} href="#home-cont">Aboutrewrwrrrwwrr</a></li>
                 <li><a className='navlink' href="https://github.com/manueljimenezs">Github</a></li>           
-                <li><a className='navlink' href="https://manueljimenezs.github.io/">Blog</a></li>            
+                <li><a className='navlink' href="https://manueljimenezs.github.io/">Blogr</a></li>                             
             </Ul>
         </>
     );

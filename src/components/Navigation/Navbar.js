@@ -19,6 +19,7 @@ const Nav = styled.nav`
   .logo {
     /*padding: 25px 30px;*/
     font-weight:800;
+    font-size: 1.2em;
   }
 `
 
