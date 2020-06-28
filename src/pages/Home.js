@@ -3,7 +3,6 @@ import Navbar from '../components/Navigation/Navbar';
 import { FaArrowDown } from 'react-icons/fa';
 import './Home.css'
 import logo from './me.svg'
-import logoFallback from './bitmap.png'
 //import Button from '../components/UI/Button/Button';
 import ButtonLink from '../components/UI/Button/ButtonLink';
 
