@@ -7,22 +7,6 @@ img {
     max-width: 100%;
 }
 
-.externals {
-    position: absolute;
-    font-size: 2em;
-    right: 0.5em;
-    top: 2.5em;
-}
-
-.externals svg{
-    padding-right: 0.2em;
-}
-.cardtainer {
-    /*border: 1px solid red;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .title {
     font-family: 'Inter';
@@ -51,15 +35,6 @@ img {
     font-weight: light;
 }
 
-#home-cont {
-    /*background-color: #306AD0;*/
-    /*border: 1px solid black;*/
-    padding: 0 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-    font-family: 'Inter';
-    /*background-color: #395fdd;*/
-}
 
 #home-intro {
     display: flex;
@@ -69,14 +44,11 @@ img {
     min-height: 100vh;
     margin: 0 auto;
     max-width: 1000px;
-    
-    
 }
 
 .text {
     font-family: 'Roboto','Liberation Sans', Helvetica, sans-serif;
 }
-
 
 
 .home-titledesc {
@@ -95,7 +67,7 @@ img {
     to {
       transform: translateY(-15px);
     }
-  }
+}
 
 footer {
     text-align: center;
@@ -113,15 +85,6 @@ footer {
         margin-bottom: 1.5%;
     }
 
-    .cardtainer { 
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    /*.cardtainer>div {
-        flex: 0 20%;
-    }*/
-
     .buttons{
         display: flex;
     }
@@ -136,47 +99,41 @@ footer {
         font-size: 1em;
     }
 
-    
+    .home-titledesc {
+        margin-top: 0px;
+        width: 50em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-end;    
+    }
 
-.home-titledesc {
-    margin-top: 0px;
-    width: 50em;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-}
+    .buttonContainer{
+        display: block;
+    }
 
+    #home-intro {
+        padding: 0 10em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh; 
+    }
 
-.buttonContainer{
-    display: block;
-}
+    .start-cover {
+        height: 40em;
+        max-width: 50%;
+        /*justify-content: flex-end;*/
+    }
 
-#home-intro {
-    padding: 0 10em;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
+    .arrow {
+        right: 4.5rem;
+        bottom: 3rem;
+    }
 
-    
-}
-
-.start-cover {
-    height: 40em;
-    max-width: 50%;
-    /*justify-content: flex-end;*/
-}
-
-.arrow {
-    right: 4.5rem;
-    bottom: 3rem;
-}
-
-.buttons { 
-    white-space: nowrap
-}
+    .buttons { 
+        white-space: nowrap
+    }
 
 }

@@ -8,6 +8,9 @@ export const CardStyle = styled.div`
         :active{
             /*color: tomato;*/
         }
+        :hover {
+            text-decoration: underline;
+        }
     }
 
     .card-title {
@@ -17,7 +20,6 @@ export const CardStyle = styled.div`
     }
 
     height: 8em;
-    /*margin: 0.4em 0.7em;*/
     border-radius: 6px;
     border: 1px solid #e1e4e8;
     font-size: 13px;
@@ -41,9 +43,9 @@ const Card = ({title,href,...props}) => {
     return (
         <CardStyle>
             <a href={href}>
-                <div class="card-title">{title}</div>
+                <div className="card-title">{title}</div>
             </a>
-            <div class="card-description">
+            <div className="card-description">
                 {props.children}
             </div>
             
