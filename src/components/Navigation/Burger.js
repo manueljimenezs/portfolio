@@ -40,9 +40,10 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   justify-content: flex-end;
   margin: 0;
+  padding-inline-start: 0px;
   
   li {
-    padding: 0 0 0 20px;
+    padding: 0 20px 2px 0;
     a {
       text-decoration: none;
       color: #000;
@@ -67,7 +68,9 @@ const Ul = styled.ul`
     height: 100vh;
     width: 100vw;
     
-    /*transition: transform 0.1s ease-in-out;*/
+    /*transition: transform 0.2s ease-in-out;*/
+    transition: transform .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) .1008s,
+    -webkit-transform .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) .1008s;
 /*
     li:hover {
       background-color: #fff;
@@ -85,7 +88,7 @@ const Ul = styled.ul`
 
       a {
         color: tomato;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         color: white;
         font-weight: 800;
       }
@@ -110,11 +113,9 @@ const Burger = () => {
                 <div />
             </StyledBurger>
             <Ul open={open}>
-                <li><a onClick={() => setOpen(!open)} href="#home-cont">About</a></li>
-                <li><a href="https://github.com/manueljimenezs">Github</a></li>           
-                <li><a href="https://manueljimenezs.github.io/">Blog</a></li>                             
-                <li><a href="https://manueljimenezs.github.io/">LinkedIn</a></li>                             
-                <li><a href="https://manueljimenezs.github.io/">Contact</a></li>                             
+                <li><a onClick={() => setOpen(!open)} href="#home-intro">Home</a></li>
+                <li><a onClick={() => setOpen(!open)} href="#home-cont">Projects</a></li>
+                <li><a href="https://manueljimenezs.github.io/">Blog</a></li>                           
             </Ul>
         </>
     );

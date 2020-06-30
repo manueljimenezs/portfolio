@@ -12,8 +12,8 @@ html {
 body {
   min-width:100%;
   color:black;
-  font-family: 'Inter';
-  font-feature-settings: 'cv11' 1
+  /*font-family: 'Inter';*/
+  /*font-feature-settings: 'cv11' 1*/
 }
 
 /*Fix for the blue onclick in chrome mobile*/

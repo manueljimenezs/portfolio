@@ -7,6 +7,23 @@ img {
     max-width: 100%;
 }
 
+.externals {
+    position: absolute;
+    font-size: 2em;
+    right: 0.5em;
+    top: 2.5em;
+}
+
+.externals svg{
+    padding-right: 0.2em;
+}
+.cardtainer {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .title {
     font-family: 'Inter';
     font-size: 1.5rem;
@@ -14,7 +31,9 @@ img {
 }
 
 .wrapper {
-    margin: 0px 3%;
+    /*display: flex;
+    flex-direction: column;*/
+    margin: 0 auto;
 }
 
 .arrow {
@@ -33,17 +52,25 @@ img {
 }
 
 #home-cont {
-    color: white;
-    background-color: #306AD0;
+    /*background-color: #306AD0;*/
+    /*border: 1px solid black;*/
+    padding: 0 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    /*background-color: #395fdd;*/
 }
 
-.home-intro {
+#home-intro {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-
+    margin: 0 auto;
+    max-width: 1000px;
+    
+    
 }
 
 .text {
@@ -70,9 +97,30 @@ img {
     }
   }
 
+footer {
+    text-align: center;
+    font-size: 0.6em;
+    height: 4em;
+    margin: 2em 0 0 0;
+}
+
 
 /*Styles for desktop*/
 @media (min-width: 792px) {
+
+    .card {
+        flex: 0 30%;
+        margin-bottom: 1.5%;
+    }
+
+    .cardtainer { 
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    /*.cardtainer>div {
+        flex: 0 20%;
+    }*/
 
     .buttons{
         display: flex;
@@ -105,8 +153,8 @@ img {
     display: block;
 }
 
-.home-intro {
-    padding: 0px 10em;
+#home-intro {
+    padding: 0 10em;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -127,8 +175,7 @@ img {
     bottom: 3rem;
 }
 
-.buttons{
-    
+.buttons { 
     white-space: nowrap
 }
 
