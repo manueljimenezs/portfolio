@@ -68,7 +68,7 @@ class Navbar extends Component {
                     <a href="https://github.com/manueljimenezs">
                         <FaGithub size={25} />
                     </a>
-                    <a href="https://www.linkedin.com/in/manuel-jim%C3%A9nez-s%C3%A1nchez-71b9a61a6/">
+                    <a href="https://www.linkedin.com/in/manueljimenezs/">
                         <FaLinkedin size={25}/>
                     </a>  
                 </div>
