@@ -7,7 +7,7 @@ const projects = {
         },
         {
             title: "Full-disk encryption on Archlinux with LVM+LUKS+BTRFS",
-            url: "https://github.com/manueljimenezs/portfolio",
+            url: "https://manueljimenezs.github.io/guides/2020/05/28/disk-encyption.html",
             description: "A secure Archlinux install using the BTRFS filesystem with encryption and zstd compression to save SSD space."
         },
         {

@@ -7,6 +7,7 @@ import ButtonLink from '../components/UI/Button/ButtonLink';
 
 //import projects from './ProjectData';
 import Projects from './sections/Projects/Projects'
+import Timeline from './sections/Timeline/Timeline'
 
 class Home extends Component {
     render() {
@@ -26,6 +27,7 @@ class Home extends Component {
                     <span className="arrow"><FaArrowDown /></span>  
             </section>
             <Projects />
+            <Timeline />
             <footer>
                 Made by Manuel Jiménez with React and love ♥ 
             </footer>

@@ -115,6 +115,7 @@ const Burger = () => {
             <Ul open={open}>
                 <li><a onClick={() => setOpen(!open)} href="#home-intro">Home</a></li>
                 <li><a onClick={() => setOpen(!open)} href="#projects">Projects</a></li>
+                <li><a onClick={() => setOpen(!open)} href="#timeline">Timeline</a></li>
                 <li><a href="https://manueljimenezs.github.io/">Blog</a></li>                           
             </Ul>
         </>
