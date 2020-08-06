@@ -61,7 +61,7 @@ class Navbar extends Component {
 
             <Nav>
                 <div className="logo">
-                    <a href="#home-intro">manujs.me</a>
+                    <a href="#home-intro">manueljimenezs</a>
                 </div>
                 <div className="separator"></div>
                 <div className="socialmedia">

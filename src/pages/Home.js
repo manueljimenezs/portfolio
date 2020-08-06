@@ -22,7 +22,8 @@ class Home extends Component {
                         <div className="title">Manuel Jiménez</div>
                         <div className="buttons">
                             <ButtonLink primary href="#projects" label="PROJECTS"/>
-                            <ButtonLink success href="#home-cont" label="MORE INFO"/>                            </div>
+                            <ButtonLink success href="https://manueljimenezs.github.io" label="BLOG"/>
+                        </div>
                     </div>
                     <span className="arrow"><FaArrowDown /></span>  
             </section>
