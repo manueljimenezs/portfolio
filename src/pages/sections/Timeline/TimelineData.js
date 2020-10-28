@@ -1,6 +1,11 @@
 const timeline = {
     data: [
         {
+            date: "Sept 2020",
+            title: "DevOps",
+            description: "Openbank"
+        },
+        {
             date: "Jun 2020",
             title: "Degree in Computer Science",
             description: "Universidad Autónoma de Madrid"

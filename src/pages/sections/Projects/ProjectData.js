@@ -1,6 +1,11 @@
 const projects = {
     data: [
         {
+            title: "archible",
+            url: "https://github.com/manueljimenezs/archible",
+            description: "An Archlinux automated install script with Ansible."
+        },
+        {
             title: "portfolio",
             url: "https://github.com/manueljimenezs/portfolio",
             description: "The source code of this web :) . Made in React using techniques like Hooks, styled-components, states and JSON."
